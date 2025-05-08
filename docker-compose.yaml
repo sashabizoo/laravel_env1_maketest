@@ -23,7 +23,7 @@ services:
       MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
       MYSQL_DATABASE: ${DB_DATABASE}
     ports:
-      - ${DB_PORT}:3306
+      - ${MYSQL_PORT}:${DB_PORT}
     volumes:
       - ./src:/var/www/laravel
 
