@@ -29,9 +29,11 @@ HTTP_PORT=8889 - внешний порт Http
 4. Для поднятия окружения делаем команду
 
 Для Linux: docker-compose up -d
+
 Для Mac OS: docker compose up -d
 
 5. Для того чтобы остановить и удалить все контейнеры, тома и образы делаем команду
 
 Для Linux: docker-compose down -v
+
 Для Mac OS: docker compose down -v
