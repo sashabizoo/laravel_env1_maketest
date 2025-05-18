@@ -63,4 +63,4 @@ docker-compose down -v --rmi all --remove-orphans
 
 ### Для Mac OS: 
 
-dockercompose down -v --rmi all --remove-orphans
+docker compose down -v --rmi all --remove-orphans
