@@ -34,7 +34,6 @@ services:
     working_dir: /var/www/laravel
     volumes:
       - ./src:/var/www/laravel
-      - /var/www/laravel/vendor
 
   artisan:
     build:
