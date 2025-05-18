@@ -23,6 +23,8 @@ DB_PASSWORD=password
 DB_DATABASE=laravel_test
 DB_PORT=3306
 
+L5_SWAGGER_CONST_HOST=http://localhost:8889 - локальный хост и порт для Swagger open API
+
 MYSQL_PORT=3316 - внешний порт Mysql
 HTTP_PORT=8889 - внешний порт Http
 
