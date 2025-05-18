@@ -33,7 +33,8 @@ services:
       dockerfile: Dockerfile
     working_dir: /var/www/laravel
     volumes:
-      - ./src:/var/www/laravel:cached
+      - ./src:/var/www/laravel
+      - /var/www/laravel/vendor
 
   artisan:
     build:
