@@ -31,8 +31,9 @@ services:
     build:
       context: .docker/composer
       dockerfile: Dockerfile
+    working_dir: /var/www/laravel
     volumes:
-      - ./src:/var/www/laravel
+      - ./src:/var/www/laravel:cached
 
   artisan:
     build:
