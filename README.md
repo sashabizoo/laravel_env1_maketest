@@ -54,3 +54,13 @@ docker-compose down -v
 ### Для Mac OS: 
 
 docker compose down -v
+
+## Для остановки с удалением всех контейнеров, томов, образов и сборок
+
+### Для Linux: 
+
+docker-compose down -v --rmi all --remove-orphans
+
+### Для Mac OS: 
+
+dockercompose down -v --rmi all --remove-orphans
