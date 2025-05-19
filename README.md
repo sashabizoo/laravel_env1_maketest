@@ -4,15 +4,11 @@
 
 ### Клонируем окружение. Делаем команду (на выбор):
 
-git clone git@github.com:sashabizoo/laravel_env1.git  
-
-или 
-
-git clone https://github.com/sashabizoo/laravel_env1.git
+git clone git@github.com:sashabizoo/laravel_env1_maketest.git 
 
 ### Заходим в созданную папку
 
-cd laravel_env1
+cd laravel_env1_maketest
 
 ### Смотрим настройки окружения в файле .env, имена, порты и если надо меняем
 
